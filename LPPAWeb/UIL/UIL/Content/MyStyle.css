@@ -1,0 +1,16 @@
+﻿fieldset {
+    float:initial;
+    clear: inherit;
+}
+
+
+
+footer {
+    float:none;
+    text-align: center;
+    text-decoration: solid;
+    background-color: grey;
+}
+
+    footer a {
+    }
