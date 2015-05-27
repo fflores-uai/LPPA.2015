@@ -41,6 +41,15 @@ Partial Public Class JobCandidateForm
     Protected WithEvents txtFirstName As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''Control txtMiddleName.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtMiddleName As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
     '''Control txtLastName.
     '''</summary>
     '''<remarks>
@@ -48,13 +57,4 @@ Partial Public Class JobCandidateForm
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents txtLastName As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control TextBox4.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TextBox4 As Global.System.Web.UI.WebControls.TextBox
 End Class

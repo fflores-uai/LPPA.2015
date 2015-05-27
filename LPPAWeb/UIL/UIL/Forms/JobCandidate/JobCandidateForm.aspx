@@ -52,7 +52,7 @@
         <section class="form-group col-lg-5 center-block">
             <article class="active table-bordered" style="padding: 10px">
 
-                <fieldset>
+                <fieldset id="NameFieldSet">
                     <legend>Datos Personales</legend>
 
                     <div>
@@ -65,29 +65,24 @@
                             </asp:DropDownList>
                         </p>
                     </div>
+                    <div>
+                        <p>
+                            <label for="txtFirstName">First Name : </label>
+                            <asp:TextBox ID="txtFirstName" type="text" runat="server"></asp:TextBox>
+                        </p>
+                    </div>
+                    <p>
+                        <label for="txtMiddleName">Middle Name: </label>
+                        <asp:TextBox ID="txtMiddleName" type="text" runat="server"></asp:TextBox>
+                    </p>
 
                     <p>
-                        <label for="txtFirstName">First Name : </label>
-                        <asp:TextBox ID="txtFirstName" type="text" runat="server"></asp:TextBox>
-                    </p>
-                    <p>
-                        <label for="txtLastName">Middle Name: </label>
+                        <label for="txtLastName">Last Name: </label>
                         <asp:TextBox ID="txtLastName" type="text" runat="server"></asp:TextBox>
-                    </p>
-
-                    <p>
-                        <label for="TextBox4">Another: </label>
-                        <asp:TextBox ID="TextBox4" type="text" runat="server"></asp:TextBox>
                     </p>
                 </fieldset>
             </article>
         </section>
-
-        <footer>
-            <p>
-                <a href="./Index.html">ADVENTURE WORKS CYCLES</a>
-            </p>
-        </footer>
     </form>
 </body>
 </html>

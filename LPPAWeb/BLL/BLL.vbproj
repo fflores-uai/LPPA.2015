@@ -90,8 +90,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="JobCandidate\DTOJobCandidate.vb" />
-    <Compile Include="JobCandidate\IJobCandidate.vb" />
+    <Compile Include="Managers\IJobCandidate.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
