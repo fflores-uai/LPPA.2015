@@ -58,9 +58,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Entitys\Entitys\Entitys.vbproj">
+    <ProjectReference Include="..\Entitys\Entitys\Core.vbproj">
       <Project>{1917e7c0-f8c8-45e1-89ef-d07dd707397f}</Project>
-      <Name>Entitys</Name>
+      <Name>Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

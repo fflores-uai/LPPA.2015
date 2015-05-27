@@ -24,3 +24,16 @@ D:\Dropbox\LPPA 2015\LPPAWeb\BLL\obj\Debug\BLL.vbproj.GenerateResource.Cache
 D:\Dropbox\LPPA 2015\LPPAWeb\BLL\obj\Debug\BLL.dll
 D:\Dropbox\LPPA 2015\LPPAWeb\BLL\obj\Debug\BLL.xml
 D:\Dropbox\LPPA 2015\LPPAWeb\BLL\obj\Debug\BLL.pdb
+D:\GITRepo\LPPA.2015\LPPAWeb\BLL\bin\BLL.dll.config
+D:\GITRepo\LPPA.2015\LPPAWeb\BLL\bin\BLL.dll
+D:\GITRepo\LPPA.2015\LPPAWeb\BLL\bin\BLL.pdb
+D:\GITRepo\LPPA.2015\LPPAWeb\BLL\bin\BLL.xml
+D:\GITRepo\LPPA.2015\LPPAWeb\BLL\bin\Entitys.dll
+D:\GITRepo\LPPA.2015\LPPAWeb\BLL\bin\Entitys.pdb
+D:\GITRepo\LPPA.2015\LPPAWeb\BLL\bin\Entitys.xml
+D:\GITRepo\LPPA.2015\LPPAWeb\BLL\obj\Debug\BLL.vbprojResolveAssemblyReference.cache
+D:\GITRepo\LPPA.2015\LPPAWeb\BLL\obj\Debug\BLL.Resources.resources
+D:\GITRepo\LPPA.2015\LPPAWeb\BLL\obj\Debug\BLL.vbproj.GenerateResource.Cache
+D:\GITRepo\LPPA.2015\LPPAWeb\BLL\obj\Debug\BLL.dll
+D:\GITRepo\LPPA.2015\LPPAWeb\BLL\obj\Debug\BLL.xml
+D:\GITRepo\LPPA.2015\LPPAWeb\BLL\obj\Debug\BLL.pdb

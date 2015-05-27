@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31010.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UIL", "UIL\UIL.vbproj", "{F2FAA85D-639A-485F-BBB1-EF63C7D8F953}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BLL", "..\BLL\BLL.vbproj", "{5D8E6C86-838F-4B79-9DCC-F63DCD3A56E7}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Entitys", "..\Entitys\Entitys\Entitys.vbproj", "{1917E7C0-F8C8-45E1-89EF-D07DD707397F}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Core", "..\Entitys\Entitys\Core.vbproj", "{1917E7C0-F8C8-45E1-89EF-D07DD707397F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -46,3 +46,21 @@ D:\Dropbox\LPPA 2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.vbproj.GenerateResource.Cache
 D:\Dropbox\LPPA 2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.dll
 D:\Dropbox\LPPA 2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.xml
 D:\Dropbox\LPPA 2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.pdb
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\bin\UIL.dll.config
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\bin\UIL.dll
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\bin\UIL.pdb
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\bin\UIL.xml
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\bin\BLL.dll
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\bin\Entitys.dll
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\bin\log4net.dll
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\bin\BLL.pdb
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\bin\BLL.xml
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\bin\Entitys.pdb
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\bin\Entitys.xml
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\bin\log4net.xml
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.vbprojResolveAssemblyReference.cache
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.Resources.resources
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.vbproj.GenerateResource.Cache
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.dll
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.xml
+D:\GITRepo\LPPA.2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.pdb

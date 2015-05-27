@@ -65,9 +65,9 @@
       <Project>{5d8e6c86-838f-4b79-9dcc-f63dcd3a56e7}</Project>
       <Name>BLL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Entitys\Entitys\Entitys.vbproj">
+    <ProjectReference Include="..\..\Entitys\Entitys\Core.vbproj">
       <Project>{1917e7c0-f8c8-45e1-89ef-d07dd707397f}</Project>
-      <Name>Entitys</Name>
+      <Name>Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -163,6 +163,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Forms\Shared\MasterPage.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -190,6 +191,13 @@
     <Compile Include="Forms\JobCandidate\Template.aspx.vb">
       <DependentUpon>Template.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Shared\MasterPage.Master.designer.vb">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Shared\MasterPage.Master.vb">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

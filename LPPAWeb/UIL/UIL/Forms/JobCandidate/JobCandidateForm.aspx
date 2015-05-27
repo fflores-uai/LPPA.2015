@@ -13,7 +13,6 @@
 <body>
     <form id="bodyForm" runat="server">
 
-
         <!--HEADER NavBar-->
         <header>
             <nav class="navbar navbar-default" role="navigation">
@@ -52,27 +51,37 @@
         <!--FORMS INGRESO DATOS-->
         <section class="form-group col-lg-5 center-block">
             <article class="active table-bordered" style="padding: 10px">
-                
-                    <fieldset>
-                        <legend>Datos Personales</legend>
+
+                <fieldset>
+                    <legend>Datos Personales</legend>
+
+                    <div>
+                        <p>
+                            <label for="cbxPrefix">Prefix : </label>
+
+                            <asp:DropDownList ID="cbxPrefix" runat="server">
+                                <asp:ListItem Text="Mr." Value="1" Selected="true" />
+                                <asp:ListItem Text="Mrs." Value="2" />
+                            </asp:DropDownList>
+                        </p>
+                    </div>
+
                     <p>
-                        <label>First Name : </label>
-                        <asp:TextBox ID="TextBox1" class="input-sm" type="text" runat="server"></asp:TextBox>
+                        <label for="txtFirstName">First Name : </label>
+                        <asp:TextBox ID="txtFirstName" type="text" runat="server"></asp:TextBox>
                     </p>
                     <p>
-                        <label>Middle Name: </label>
-                        <asp:TextBox ID="TextBox2" class="input-sm" type="text" runat="server"></asp:TextBox>
+                        <label for="txtLastName">Middle Name: </label>
+                        <asp:TextBox ID="txtLastName" type="text" runat="server"></asp:TextBox>
                     </p>
+
                     <p>
-                        <label>Last Name : </label>
-                        <asp:TextBox ID="TextBox3" class="input-sm" type="text" runat="server"></asp:TextBox>
+                        <label for="TextBox4">Another: </label>
+                        <asp:TextBox ID="TextBox4" type="text" runat="server"></asp:TextBox>
                     </p>
-                        </fieldset>
-                
+                </fieldset>
             </article>
-
         </section>
-
 
         <footer>
             <p>
