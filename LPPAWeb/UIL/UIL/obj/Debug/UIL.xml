@@ -6,25 +6,9 @@ UIL
 </name>
 </assembly>
 <members>
-<member name="F:UIL.MasterPage.head">
-	<summary>
-Control head.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:UIL.MasterPage.form1">
+<member name="F:UIL.Template.form1">
 	<summary>
 Control form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:UIL.MasterPage.Contenido">
-	<summary>
-Control Contenido.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -54,6 +38,14 @@ Control txtFirstName.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:UIL.JobCandidateForm.txtMiddleName">
+	<summary>
+Control txtMiddleName.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:UIL.JobCandidateForm.txtLastName">
 	<summary>
 Control txtLastName.
@@ -62,9 +54,33 @@ Control txtLastName.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:UIL.JobCandidateForm.TextBox4">
+</member><member name="F:UIL.JobCandidateForm.txtSkill">
 	<summary>
-Control TextBox4.
+Control txtSkill.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.MasterPage.head">
+	<summary>
+Control head.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.MasterPage.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.MasterPage.Contenido">
+	<summary>
+Control Contenido.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -95,14 +111,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
  Module used to define the properties that are available in the My Namespace for Web projects.
  </summary>
 	<remarks></remarks>
-</member><member name="F:UIL.Template.form1">
-	<summary>
-Control form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
 </member>
 </members>
 </doc>

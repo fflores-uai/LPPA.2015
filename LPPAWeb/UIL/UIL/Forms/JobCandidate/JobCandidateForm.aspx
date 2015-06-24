@@ -50,9 +50,8 @@
 
         <!--FORMS INGRESO DATOS-->
         <section class="form-group col-lg-5 center-block">
-            <article class="active table-bordered" style="padding: 10px">
-
-                <fieldset id="NameFieldSet">
+            <article id="NameFieldSet" class="active table-bordered" style="padding: 10px">
+                <fieldset>
                     <legend>Datos Personales</legend>
 
                     <div>
@@ -80,6 +79,19 @@
                         <label for="txtLastName">Last Name: </label>
                         <asp:TextBox ID="txtLastName" type="text" runat="server"></asp:TextBox>
                     </p>
+                </fieldset>
+                
+            </article>
+
+            <article id="SkillsFieldSet" class="active table-bordered" style="padding: 10px">
+                <fieldset >
+                    <legend>Skills</legend>
+                    <div>
+                        <p>
+                             <label for="txtSkill">Description: </label>
+                             <asp:TextBox TextMode="MultiLine" ID="txtSkill" type="text" style="width:400px; max-width:400px" runat="server"></asp:TextBox>
+                        </p>
+                    </div>
                 </fieldset>
             </article>
         </section>

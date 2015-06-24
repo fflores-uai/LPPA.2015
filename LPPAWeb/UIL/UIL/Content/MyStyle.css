@@ -1,8 +1,24 @@
-﻿fieldset {
-    float:initial;
-    clear: inherit;
+﻿
+fieldset {
+    align-self:center;
+    width:500px;
+        clear: inherit;
 }
 
+article {
+    align-self:center;
+
+}
+
+fieldset label{
+    width: 150px;
+}
+
+#txtSkill {
+    width:400px;
+    max-width:400px;
+    height:300px;
+}
 
 
 footer {

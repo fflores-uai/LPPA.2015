@@ -1,0 +1,155 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FW.FFlores2014
+</name>
+</assembly>
+<members>
+<member name="T:FW.FFlores2014.Encriptadores.Trasposicion">
+	<summary>
+ Encriptar:
+ Recibe una variable tipo String;
+ Suma 32 posiciones ASCII a cada caracter;
+ Devuelve variable tipo String con la palabra "encriptada".
+ 
+ Desencriptar:
+ Recibe una variable tipo String;
+ Resta 32 posiciones ASCII a cada caracter;
+ Devuelve variable tipo String con la palabra "desencriptada".
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="T:FW.FFlores2014.Sistema.Unidades">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="T:FW.FFlores2014.Excepciones.FrameworkException">
+	<summary>
+ 
+ Manejo de Excepciones
+ FrameworkException
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="T:FW.FFlores2014.Funciones.Convertidores">
+	<summary>
+ BooleanoASiNo:
+ Recibe un bool;
+ Devuelve variable String;
+ Ejemplo: "SI" si el bool es true y "NO" si el bool es false. 
+ 
+ Cero a la izquierda: "Insertar tantos ceros".
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="T:FW.FFlores2014.Sistema.Carpetas">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="T:FW.FFlores2014.Funciones.Cadenas">
+	<summary>
+ Unir Lista:
+ Recibe una lista de Tipo String
+ Devuelve una variable String con la lista unida, separada por ";"
+ 
+ Separar Lista:
+ Recibe un texto, ejemplo “bart|lisa|homero”
+ Recibe un carácter separador = “|”
+ El resultado es una lista, que dentro tenga {bart, lisa, homero}
+ El carácter separador desaparece.
+ Devuelve Tipo Lista(String)
+ 
+ Decorar Lista:
+ Recibe una lista de tipo String
+ Le agrega a la lista "--&gt;" al comienzo de cada item
+ Devuelve Tipo Lista(String)
+ 
+ Reemplazar:
+ Reemplazar(cadenaOriginal, cadenaBuscar, cadenaReemplazar)
+ Recibe un texto original ej: “el teclado es negro”
+ Recibe una cadena a buscar: ejemplo “e”
+ Recibe el valor que debe reemplazar en el texto buscado, ejemplo: “@”
+ El resultado es: “@l t@clado @s n@gro”
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="P:FW.FFlores2014.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:FW.FFlores2014.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:FW.FFlores2014.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:FW.FFlores2014.Sistema.Windows">
+	<summary>
+ Apagar:
+ Apaga la PC
+ 
+ Reiniciar:
+ Reinicia la PC
+ 
+ Cerrar Sesion:
+ Cierra la sesion
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="T:FW.FFlores2014.Funciones.Fechas">
+	<summary>
+ Hoy:
+ Devuelve Fecha Actual en variable Tipo String
+ 
+ Ahora:
+ Devuelve Fecha y Hora Actual en variable Tipo String
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="T:FW.FFlores2014.Compresores.WinRar">
+	<summary>
+ '
+ </summary>
+	<remarks></remarks>
+</member><member name="T:FW.FFlores2014.Funciones.Matematicas">
+	<summary>
+ Numero Aleatorio:
+ Recibe un numero minimo y maximo
+ Devuelve un numero Aleatorio Tipo Integer
+ 
+ Promedio:
+ Recibe un array de Doubles
+ Devuelve el Promedio Tipo Double
+ 
+ Obtener Porcentaje:
+ Recibe el Valor Actual y el Valor Total
+ Devuelve el porcentaje Tipo Double
+ 
+ Obtener Valor Del Porcentaje:
+ Recive Valor Total y PorcentajeRequerido
+ Devuelve el valor como Resultado en Tipo Double
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="T:FW.FFlores2014.Sistema.Archivos">
+	<summary>
+ GuardarArchivo:
+ Recibe "path completo del archivo" y texto a grabar
+ Guarda texto en el archivo linea por linea
+ 
+ GuardarAppendArchivo:
+ Recibe "path completo del archivo" y texto a grabar
+ Agrega al archivo el texto recibido en una linea nueva
+ 
+ GuardarArchivoConfiguracion':
+ Recibe "path completo del archivo" y contenido a grabar
+ Guarda "un dato:texto" y hace linea nueva
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

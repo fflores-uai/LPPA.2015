@@ -7,3 +7,12 @@ D:\GITRepo\LPPA.2015\LPPAWeb\Entitys\Entitys\obj\Debug\Core.vbproj.GenerateResou
 D:\GITRepo\LPPA.2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.dll
 D:\GITRepo\LPPA.2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.xml
 D:\GITRepo\LPPA.2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.pdb
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\bin\Entitys.dll.config
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\bin\Entitys.dll
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\bin\Entitys.pdb
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\bin\Entitys.xml
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.Resources.resources
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\obj\Debug\Core.vbproj.GenerateResource.Cache
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.dll
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.xml
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.pdb

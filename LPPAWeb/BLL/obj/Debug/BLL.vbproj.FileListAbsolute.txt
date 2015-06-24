@@ -37,3 +37,16 @@ D:\GITRepo\LPPA.2015\LPPAWeb\BLL\obj\Debug\BLL.vbproj.GenerateResource.Cache
 D:\GITRepo\LPPA.2015\LPPAWeb\BLL\obj\Debug\BLL.dll
 D:\GITRepo\LPPA.2015\LPPAWeb\BLL\obj\Debug\BLL.xml
 D:\GITRepo\LPPA.2015\LPPAWeb\BLL\obj\Debug\BLL.pdb
+D:\ProyectsGit\LPPAWeb\BLL\bin\BLL.dll.config
+D:\ProyectsGit\LPPAWeb\BLL\bin\BLL.dll
+D:\ProyectsGit\LPPAWeb\BLL\bin\BLL.pdb
+D:\ProyectsGit\LPPAWeb\BLL\bin\BLL.xml
+D:\ProyectsGit\LPPAWeb\BLL\bin\Entitys.dll
+D:\ProyectsGit\LPPAWeb\BLL\bin\Entitys.pdb
+D:\ProyectsGit\LPPAWeb\BLL\bin\Entitys.xml
+D:\ProyectsGit\LPPAWeb\BLL\obj\Debug\BLL.vbprojResolveAssemblyReference.cache
+D:\ProyectsGit\LPPAWeb\BLL\obj\Debug\BLL.Resources.resources
+D:\ProyectsGit\LPPAWeb\BLL\obj\Debug\BLL.vbproj.GenerateResource.Cache
+D:\ProyectsGit\LPPAWeb\BLL\obj\Debug\BLL.dll
+D:\ProyectsGit\LPPAWeb\BLL\obj\Debug\BLL.xml
+D:\ProyectsGit\LPPAWeb\BLL\obj\Debug\BLL.pdb
