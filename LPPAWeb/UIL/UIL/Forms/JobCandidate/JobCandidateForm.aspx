@@ -79,6 +79,13 @@
                         <label for="txtLastName">Last Name: </label>
                         <asp:TextBox ID="txtLastName" type="text" runat="server"></asp:TextBox>
                     </p>
+
+                    <div>
+                        <p>
+                            <asp:Button type="button" ID="btnNext" runat="server" />
+                        </p>
+                    </div>
+
                 </fieldset>
                 
             </article>
