@@ -153,7 +153,9 @@
     <Content Include="Content\themes\base\tooltip.css" />
     <Content Include="Content\MyStyle.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Forms\Index\Index.aspx" />
     <Content Include="Forms\Index\Index.html" />
+    <Content Include="Forms\JobCandidate\Candidate.aspx" />
     <Content Include="Forms\JobCandidate\JobCandidate.html" />
     <Content Include="Forms\JobCandidate\JobCandidateForm.aspx" />
     <Content Include="Forms\JobCandidate\Template.aspx" />
@@ -179,6 +181,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Index\Index.aspx.designer.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Index\Index.aspx.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Forms\JobCandidate\Candidate.aspx.designer.vb">
+      <DependentUpon>Candidate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JobCandidate\Candidate.aspx.vb">
+      <DependentUpon>Candidate.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Forms\JobCandidate\JobCandidateForm.aspx.designer.vb">
       <DependentUpon>JobCandidateForm.aspx</DependentUpon>
     </Compile>

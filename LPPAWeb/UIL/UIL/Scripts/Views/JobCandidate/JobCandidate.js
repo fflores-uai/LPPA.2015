@@ -1,7 +1,7 @@
-﻿$(document).ready(main);
+﻿$(document).ready(Main);
 
 function Main() {
+
     $('#btnNext').on('click', function () {
-    });
-}
-//# sourceMappingURL=JobCandidate.js.map
+
+    })
