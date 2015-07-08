@@ -74,11 +74,15 @@
                         <label for="txtMiddleName">Middle Name: </label>
                         <asp:TextBox ID="txtMiddleName" type="text" runat="server"></asp:TextBox>
                     </p>
-
                     <p>
                         <label for="txtLastName">Last Name: </label>
                         <asp:TextBox ID="txtLastName" type="text" runat="server"></asp:TextBox>
                     </p>
+                    <div class="fieldSetButtons">
+                        <p>
+                        <asp:Button ID="btnNext" type="button" runat="server" />
+                        </p>
+                    </div>
                 </fieldset>
                 
             </article>
@@ -90,6 +94,11 @@
                         <p>
                              <label for="txtSkill">Description: </label>
                              <asp:TextBox TextMode="MultiLine" ID="txtSkill" type="text" style="width:400px; max-width:400px" runat="server"></asp:TextBox>
+                        </p>
+                    </div>
+                    <div class="fieldSetButtons">
+                        <p>
+                        <asp:Button ID="Button1" type="button" runat="server" />
                         </p>
                     </div>
                 </fieldset>
