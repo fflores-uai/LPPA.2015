@@ -155,8 +155,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Forms\Index\Index.aspx" />
     <Content Include="Forms\JobCandidate\Candidate.aspx" />
-    <Content Include="Forms\JobCandidate\JobCandidateForm.aspx" />
     <Content Include="Forms\JobCandidate\Template.aspx" />
+    <Content Include="Forms\LogIn\LogIn.aspx" />
     <Content Include="Icon.png" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -193,18 +193,18 @@
       <DependentUpon>Candidate.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Forms\JobCandidate\JobCandidateForm.aspx.designer.vb">
-      <DependentUpon>JobCandidateForm.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\JobCandidate\JobCandidateForm.aspx.vb">
-      <DependentUpon>JobCandidateForm.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="Forms\JobCandidate\Template.aspx.designer.vb">
       <DependentUpon>Template.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forms\JobCandidate\Template.aspx.vb">
       <DependentUpon>Template.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Forms\LogIn\LogIn.aspx.designer.vb">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LogIn\LogIn.aspx.vb">
+      <DependentUpon>LogIn.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Forms\Shared\MasterPage.Master.designer.vb">
@@ -261,8 +261,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
-    <TypeScriptCompile Include="Scripts\Views\JobCandidate\JobCandidate.ts" />
+    <Folder Include="Scripts\Views\JobCandidate\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

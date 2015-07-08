@@ -6,23 +6,7 @@ UIL
 </name>
 </assembly>
 <members>
-<member name="F:UIL.Template.form1">
-	<summary>
-Control form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:UIL.JobCandidateForm.bodyForm">
-	<summary>
-Control bodyForm.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:UIL.JobCandidateForm.cbxPrefix">
+<member name="F:UIL.Candidate.cbxPrefix">
 	<summary>
 Control cbxPrefix.
 </summary>
@@ -30,7 +14,7 @@ Control cbxPrefix.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:UIL.JobCandidateForm.txtFirstName">
+</member><member name="F:UIL.Candidate.txtFirstName">
 	<summary>
 Control txtFirstName.
 </summary>
@@ -38,7 +22,7 @@ Control txtFirstName.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:UIL.JobCandidateForm.txtMiddleName">
+</member><member name="F:UIL.Candidate.txtMiddleName">
 	<summary>
 Control txtMiddleName.
 </summary>
@@ -46,7 +30,7 @@ Control txtMiddleName.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:UIL.JobCandidateForm.txtLastName">
+</member><member name="F:UIL.Candidate.txtLastName">
 	<summary>
 Control txtLastName.
 </summary>
@@ -54,7 +38,7 @@ Control txtLastName.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:UIL.JobCandidateForm.btnNext">
+</member><member name="F:UIL.Candidate.btnNext">
 	<summary>
 Control btnNext.
 </summary>
@@ -62,9 +46,209 @@ Control btnNext.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:UIL.JobCandidateForm.txtSkill">
+</member><member name="F:UIL.Candidate.txtSkill">
 	<summary>
 Control txtSkill.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtStartDate">
+	<summary>
+Control txtStartDate.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtEndDate">
+	<summary>
+Control txtEndDate.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtOrgName">
+	<summary>
+Control txtOrgName.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtJobTitle">
+	<summary>
+Control txtJobTitle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtResponsibility">
+	<summary>
+Control txtResponsibility.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtFunctionCategory">
+	<summary>
+Control txtFunctionCategory.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtIndustryCategory">
+	<summary>
+Control txtIndustryCategory.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtCountryRegion">
+	<summary>
+Control txtCountryRegion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtState">
+	<summary>
+Control txtState.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtCity">
+	<summary>
+Control txtCity.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.Button4">
+	<summary>
+Control Button4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtStartDate1">
+	<summary>
+Control txtStartDate1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtStartDateEd">
+	<summary>
+Control txtStartDateEd.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtEndDateEd">
+	<summary>
+Control txtEndDateEd.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtDegree">
+	<summary>
+Control txtDegree.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtMajor">
+	<summary>
+Control txtMajor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtMinor">
+	<summary>
+Control txtMinor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtGPA">
+	<summary>
+Control txtGPA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtGPAScale">
+	<summary>
+Control txtGPAScale.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.txtSchool">
+	<summary>
+Control txtSchool.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.Button2">
+	<summary>
+Control Button2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.TextBox3">
+	<summary>
+Control TextBox3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Candidate.Button3">
+	<summary>
+Control Button3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:UIL.Template.form1">
+	<summary>
+Control form1.
 </summary>
 	<remarks>
 Campo generado automáticamente.

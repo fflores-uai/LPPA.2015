@@ -1,7 +1,7 @@
 ﻿fieldset {
     align-self: center;
     width: 500px;
-    clear: inherit;
+    clear: both;
 }
 
 article {
@@ -27,3 +27,7 @@ footer {
 
     footer a {
     }
+
+#containerFieldsets {
+    float:none;
+}
