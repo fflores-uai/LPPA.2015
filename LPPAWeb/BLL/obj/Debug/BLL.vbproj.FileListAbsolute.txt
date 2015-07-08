@@ -50,3 +50,16 @@ D:\ProyectsGit\LPPAWeb\BLL\obj\Debug\BLL.vbproj.GenerateResource.Cache
 D:\ProyectsGit\LPPAWeb\BLL\obj\Debug\BLL.dll
 D:\ProyectsGit\LPPAWeb\BLL\obj\Debug\BLL.xml
 D:\ProyectsGit\LPPAWeb\BLL\obj\Debug\BLL.pdb
+D:\ProyectosGit\LPPAWeb\BLL\bin\BLL.dll.config
+D:\ProyectosGit\LPPAWeb\BLL\bin\BLL.dll
+D:\ProyectosGit\LPPAWeb\BLL\bin\BLL.pdb
+D:\ProyectosGit\LPPAWeb\BLL\bin\BLL.xml
+D:\ProyectosGit\LPPAWeb\BLL\bin\Entitys.dll
+D:\ProyectosGit\LPPAWeb\BLL\bin\Entitys.pdb
+D:\ProyectosGit\LPPAWeb\BLL\bin\Entitys.xml
+D:\ProyectosGit\LPPAWeb\BLL\obj\Debug\BLL.vbprojResolveAssemblyReference.cache
+D:\ProyectosGit\LPPAWeb\BLL\obj\Debug\BLL.Resources.resources
+D:\ProyectosGit\LPPAWeb\BLL\obj\Debug\BLL.vbproj.GenerateResource.Cache
+D:\ProyectosGit\LPPAWeb\BLL\obj\Debug\BLL.dll
+D:\ProyectosGit\LPPAWeb\BLL\obj\Debug\BLL.xml
+D:\ProyectosGit\LPPAWeb\BLL\obj\Debug\BLL.pdb

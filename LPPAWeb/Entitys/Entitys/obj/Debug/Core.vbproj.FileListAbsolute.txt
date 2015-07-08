@@ -16,3 +16,12 @@ D:\ProyectsGit\LPPAWeb\Entitys\Entitys\obj\Debug\Core.vbproj.GenerateResource.Ca
 D:\ProyectsGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.dll
 D:\ProyectsGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.xml
 D:\ProyectsGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.pdb
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\bin\Entitys.dll.config
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\bin\Entitys.dll
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\bin\Entitys.pdb
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\bin\Entitys.xml
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.Resources.resources
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\obj\Debug\Core.vbproj.GenerateResource.Cache
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.dll
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.xml
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.pdb

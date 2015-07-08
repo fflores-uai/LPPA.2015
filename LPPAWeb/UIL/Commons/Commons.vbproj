@@ -86,10 +86,10 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Department.vb" />
+    <Compile Include="Entities\Employee.vb" />
+    <Compile Include="Entities\EmployeeDepartmentHistory.vb" />
     <Compile Include="Entities\JobCandidate.vb" />
-    <Compile Include="Entities\Person.vb" />
-    <Compile Include="Entities\PersonPhone.vb" />
-    <Compile Include="Entities\Resume.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -109,6 +109,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Entities\PatenteFamiliaEntities\Familia.vb" />
+    <Compile Include="Entities\PatenteFamiliaEntities\FamiliaElement.vb" />
+    <Compile Include="Entities\PatenteFamiliaEntities\Patente.vb" />
+    <Compile Include="Entities\PatenteFamiliaEntities\Usuario.vb" />
+    <Compile Include="Entities\Person.vb" />
+    <Compile Include="Entities\PersonPhone.vb" />
+    <Compile Include="Entities\Resume.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
