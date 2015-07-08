@@ -1,7 +1,7 @@
 ﻿Imports System
 Imports System.Runtime.CompilerServices
 
-Namespace Entity
+Namespace Entities
     Public MustInherit Class FamiliaElement
         ' Methods
         Public Sub New()

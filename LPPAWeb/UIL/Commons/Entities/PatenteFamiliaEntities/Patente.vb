@@ -1,6 +1,6 @@
 ﻿Imports System
 
-Namespace Entity
+Namespace Entities
     Public Class Patente
         Inherits FamiliaElement
         ' Methods

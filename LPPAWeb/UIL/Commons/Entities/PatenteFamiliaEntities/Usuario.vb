@@ -1,7 +1,7 @@
 ﻿Imports System
 Imports System.Collections.Generic
 
-Namespace Entity
+Namespace Entities
     Public Class Usuario
         ' Properties
         Public Property IdUsuario As String

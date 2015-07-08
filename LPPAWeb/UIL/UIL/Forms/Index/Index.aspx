@@ -1,4 +1,4 @@
-﻿<%@ Page Title="HOMES" Language="vb" AutoEventWireup="false" MasterPageFile="~/Forms/Shared/MasterPage.Master" CodeBehind="Index.aspx.vb" Inherits="UIL.Index" %>
+﻿<%@ Page Title="HOMES" Language="vb" AutoEventWireup="false" MasterPageFile="~/Forms/Shared/MasterPage.Master" CodeBehind="Index.aspx.vb" Inherits="Website.Index" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

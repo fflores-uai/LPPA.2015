@@ -20,6 +20,13 @@ D:\ProyectosGit\LPPAWeb\Entitys\Entitys\bin\Entitys.dll.config
 D:\ProyectosGit\LPPAWeb\Entitys\Entitys\bin\Entitys.dll
 D:\ProyectosGit\LPPAWeb\Entitys\Entitys\bin\Entitys.pdb
 D:\ProyectosGit\LPPAWeb\Entitys\Entitys\bin\Entitys.xml
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\bin\Commons.dll
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\bin\FW.FFlores2014.dll
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\bin\FW.FFlores2014.pdb
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\bin\FW.FFlores2014.xml
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\bin\Commons.pdb
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\bin\Commons.xml
+D:\ProyectosGit\LPPAWeb\Entitys\Entitys\obj\Debug\Core.vbprojResolveAssemblyReference.cache
 D:\ProyectosGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.Resources.resources
 D:\ProyectosGit\LPPAWeb\Entitys\Entitys\obj\Debug\Core.vbproj.GenerateResource.Cache
 D:\ProyectosGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.dll

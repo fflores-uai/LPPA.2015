@@ -87,6 +87,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\XMLResumeSerializer.vb" />
+    <Compile Include="Managers\JobCandidateManager.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -131,6 +133,16 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FW.FFlores2014\FW.FFlores2014.vbproj">
+      <Project>{dea4d310-79d5-407c-896d-0e103faa3776}</Project>
+      <Name>FW.FFlores2014</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UIL\Commons\Commons.vbproj">
+      <Project>{30417cc7-83fd-41dc-be3b-bb96bdace196}</Project>
+      <Name>Commons</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

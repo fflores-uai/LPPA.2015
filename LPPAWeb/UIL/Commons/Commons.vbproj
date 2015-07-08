@@ -58,6 +58,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\FW.FFlores2014\FW.FFlores2014.vbproj">
+      <Project>{dea4d310-79d5-407c-896d-0e103faa3776}</Project>
+      <Name>FW.FFlores2014</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -114,8 +118,7 @@
     <Compile Include="Entities\PatenteFamiliaEntities\Patente.vb" />
     <Compile Include="Entities\PatenteFamiliaEntities\Usuario.vb" />
     <Compile Include="Entities\Person.vb" />
-    <Compile Include="Entities\PersonPhone.vb" />
-    <Compile Include="Entities\Resume.vb" />
+    <Compile Include="Entities\ResumeCandidate.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

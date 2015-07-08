@@ -86,11 +86,8 @@ D:\ProyectosGit\LPPAWeb\UIL\UIL\bin\UIL.dll.config
 D:\ProyectosGit\LPPAWeb\UIL\UIL\bin\UIL.dll
 D:\ProyectosGit\LPPAWeb\UIL\UIL\bin\UIL.pdb
 D:\ProyectosGit\LPPAWeb\UIL\UIL\bin\UIL.xml
-D:\ProyectosGit\LPPAWeb\UIL\UIL\bin\BLL.dll
 D:\ProyectosGit\LPPAWeb\UIL\UIL\bin\Entitys.dll
 D:\ProyectosGit\LPPAWeb\UIL\UIL\bin\log4net.dll
-D:\ProyectosGit\LPPAWeb\UIL\UIL\bin\BLL.pdb
-D:\ProyectosGit\LPPAWeb\UIL\UIL\bin\BLL.xml
 D:\ProyectosGit\LPPAWeb\UIL\UIL\bin\Entitys.pdb
 D:\ProyectosGit\LPPAWeb\UIL\UIL\bin\Entitys.xml
 D:\ProyectosGit\LPPAWeb\UIL\UIL\bin\log4net.xml

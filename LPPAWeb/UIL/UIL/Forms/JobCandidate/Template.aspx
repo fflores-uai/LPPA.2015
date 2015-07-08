@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Template.aspx.vb" Inherits="UIL.Template" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Template.aspx.vb" Inherits="Website.Template" %>
 
 <!DOCTYPE html>
 
