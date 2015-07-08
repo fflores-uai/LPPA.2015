@@ -11,6 +11,4 @@ Public Class ExpresionRegular
         Return valor
     End Function
 
-
-
 End Class

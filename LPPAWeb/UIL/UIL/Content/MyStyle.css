@@ -1,34 +1,29 @@
-﻿
-fieldset {
-    align-self:center;
-    width:500px;
-        clear: inherit;
+﻿fieldset {
+    align-self: center;
+    width: 500px;
+    clear: inherit;
 }
 
 article {
-    align-self:center;
-
+    align-self: center;
 }
 
-fieldset label{
+fieldset label {
     width: 150px;
 }
 
 #txtSkill {
-    width:400px;
-    max-width:400px;
-    height:300px;
+    width: 400px;
+    max-width: 400px;
+    height: 300px;
 }
 
-
 footer {
-    float:none;
+    float: none;
     text-align: center;
     text-decoration: solid;
     background-color: grey;
 }
 
     footer a {
-
-
     }

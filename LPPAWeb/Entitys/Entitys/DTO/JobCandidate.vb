@@ -5,5 +5,4 @@
     Property ResumeXML As String
     Property ModifiedDate As Date
 
-
 End Class

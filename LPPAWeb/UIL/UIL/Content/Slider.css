@@ -4,22 +4,20 @@
   width: 960px;
 }
 
-
 /* Header */
 
 .header {
   background-color: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid #ddd;
-  
+
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
-  
+
   font-size: 17px;
   padding: 15px;
 }
 
-
-/* Menu */ 
+/* Menu */
 
 .header .menu {
   float: right;
@@ -51,7 +49,6 @@
   font-weight: 300;
 }
 
-
 /* SLIDER */
 
 .slider {
@@ -77,11 +74,11 @@
 }
 
 .slide-copy h1 {
-  color: #363636;  
-  
+  color: #363636;
+
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  
+
   font-size: 40px;
   margin-top: 105px;
   margin-bottom: 0px;
@@ -89,10 +86,10 @@
 
 .slide-copy h2 {
   color: #b7b7b7;
-  
+
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  
+
   font-size: 40px;
   margin: 5px;
 }
@@ -113,7 +110,6 @@
 /* Slide feature */
 .slide-images-center {
     text-align: center
-        
 }
 
 .slide-feature {
@@ -130,11 +126,11 @@
 .slide-feature a {
   display: block;
   color: #6fc5e0;
-  
+
   font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  
+
   font-size: 20px;
 }
 

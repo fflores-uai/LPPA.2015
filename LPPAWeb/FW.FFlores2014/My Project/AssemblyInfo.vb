@@ -2,7 +2,7 @@
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
-' La información general sobre un ensamblado se controla mediante el siguiente 
+' La información general sobre un ensamblado se controla mediante el siguiente
 ' conjunto de atributos. Cambie estos atributos para modificar la información
 ' asociada con un ensamblado.
 
@@ -15,7 +15,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyCopyright("Copyright ©  2014")> 
 <Assembly: AssemblyTrademark("")> 
 
-<Assembly: ComVisible(False)>
+<Assembly: ComVisible(False)> 
 
 'El siguiente GUID sirve como identificador de typelib si este proyecto se expone a COM
 <Assembly: Guid("45ba60a2-9ae0-4a85-9479-81a90cae8d10")> 
@@ -23,13 +23,13 @@ Imports System.Runtime.InteropServices
 ' La información de versión de un ensamblado consta de los cuatro valores siguientes:
 '
 '      Versión principal
-'      Versión secundaria 
+'      Versión secundaria
 '      Número de compilación
 '      Revisión
 '
-' Puede especificar todos los valores o usar los valores predeterminados de número de compilación y de revisión 
+' Puede especificar todos los valores o usar los valores predeterminados de número de compilación y de revisión
 ' mediante el asterisco ('*'), como se muestra a continuación:
-' <Assembly: AssemblyVersion("1.0.*")> 
+' <Assembly: AssemblyVersion("1.0.*")>
 
 <Assembly: AssemblyVersion("1.0.0.0")> 
 <Assembly: AssemblyFileVersion("1.0.0.0")> 

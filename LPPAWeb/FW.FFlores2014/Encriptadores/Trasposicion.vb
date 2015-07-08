@@ -4,12 +4,12 @@
     ''' Recibe una variable tipo String;
     ''' Suma 32 posiciones ASCII a cada caracter;
     ''' Devuelve variable tipo String con la palabra "encriptada".
-    ''' 
+    '''
     ''' Desencriptar:
     ''' Recibe una variable tipo String;
     ''' Resta 32 posiciones ASCII a cada caracter;
     ''' Devuelve variable tipo String con la palabra "desencriptada".
-    ''' 
+    '''
     ''' </summary>
     ''' <remarks></remarks>
     Public Class Trasposicion
@@ -29,7 +29,6 @@
             Return resultado
 
         End Function
-
 
         Public Function Desencriptar(texto As String) As String
 

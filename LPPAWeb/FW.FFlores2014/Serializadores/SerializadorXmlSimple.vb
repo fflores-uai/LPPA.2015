@@ -1,8 +1,6 @@
-﻿
-Imports System.Xml
+﻿Imports System.Xml
 Imports System.Text
 Namespace Serializadores
-
 
     Public Class SerializadorXmlSimple
         Implements ISerializador

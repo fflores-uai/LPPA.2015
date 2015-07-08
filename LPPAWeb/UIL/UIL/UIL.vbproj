@@ -152,9 +152,7 @@
     <Content Include="Content\MyStyle.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Forms\Index\Index.aspx" />
-    <Content Include="Forms\Index\Index.html" />
     <Content Include="Forms\JobCandidate\Candidate.aspx" />
-    <Content Include="Forms\JobCandidate\JobCandidate.html" />
     <Content Include="Forms\JobCandidate\JobCandidateForm.aspx" />
     <Content Include="Forms\JobCandidate\Template.aspx" />
     <Content Include="Icon.png" />

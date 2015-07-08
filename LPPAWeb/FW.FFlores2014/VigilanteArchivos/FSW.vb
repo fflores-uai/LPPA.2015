@@ -1,7 +1,5 @@
 ﻿Imports System.IO
 
-
-
 Public Class FSW
 
     Private WithEvents elFSW As IO.FileSystemWatcher
@@ -11,10 +9,6 @@ Public Class FSW
     Public Event ArchivoCambiado(ByVal FullPath As String)
     Public Event ArchivoRenombrado(ByVal OldFileName As String, ByVal newFileName As String)
     Public Event ErrorMonitoreo(ByVal ErrMsg As String)
-
-
-
-
 
     Public Sub New()
 
@@ -28,9 +22,7 @@ Public Class FSW
                                            IO.NotifyFilters.Security Or _
                                            IO.NotifyFilters.Size
 
-
         elFSW.Filter = filtro
-
 
     End Sub
 
@@ -64,9 +56,6 @@ Public Class FSW
         End Set
     End Property
 
-
-
-
     Public Function Iniciar() As Boolean
         Dim res As Boolean = False
         Try
@@ -88,7 +77,6 @@ Public Class FSW
         End Try
         Return res
     End Function
-
 
     Private Sub FSW_ArchivoCreado(ByVal sender As Object, ByVal e As System.IO.FileSystemEventArgs) Handles elFSW.Created
         RaiseEvent ArchivoCreado(e.FullPath)

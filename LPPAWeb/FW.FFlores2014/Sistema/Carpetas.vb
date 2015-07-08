@@ -1,6 +1,6 @@
 ﻿Namespace Sistema
     ''' <summary>
-    ''' 
+    '''
     ''' </summary>
     ''' <remarks></remarks>
     Public Class Carpetas

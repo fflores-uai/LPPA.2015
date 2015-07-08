@@ -1,16 +1,15 @@
 ﻿Imports FW.FFlores2014.Interfaces
 
-
 Namespace Sistema
     ''' <summary>
     ''' GuardarArchivo:
     ''' Recibe "path completo del archivo" y texto a grabar
     ''' Guarda texto en el archivo linea por linea
-    ''' 
+    '''
     ''' GuardarAppendArchivo:
     ''' Recibe "path completo del archivo" y texto a grabar
     ''' Agrega al archivo el texto recibido en una linea nueva
-    ''' 
+    '''
     ''' GuardarArchivoConfiguracion':
     ''' Recibe "path completo del archivo" y contenido a grabar
     ''' Guarda "un dato:texto" y hace linea nueva
@@ -58,7 +57,6 @@ Namespace Sistema
             Return listaArchivos
 
         End Function
-
 
         Public Shared Function AbrirArchivo(NombreArchivo As String)
 

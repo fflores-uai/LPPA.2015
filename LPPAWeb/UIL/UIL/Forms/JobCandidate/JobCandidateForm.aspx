@@ -85,18 +85,16 @@
                             <asp:Button type="button" ID="btnNext" runat="server" />
                         </p>
                     </div>
-
                 </fieldset>
-                
             </article>
 
             <article id="SkillsFieldSet" class="active table-bordered" style="padding: 10px">
-                <fieldset >
+                <fieldset>
                     <legend>Skills</legend>
                     <div>
                         <p>
-                             <label for="txtSkill">Description: </label>
-                             <asp:TextBox TextMode="MultiLine" ID="txtSkill" type="text" style="width:400px; max-width:400px" runat="server"></asp:TextBox>
+                            <label for="txtSkill">Description: </label>
+                            <asp:TextBox TextMode="MultiLine" ID="txtSkill" type="text" Style="width: 400px; max-width: 400px" runat="server"></asp:TextBox>
                         </p>
                     </div>
                 </fieldset>

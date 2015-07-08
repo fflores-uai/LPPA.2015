@@ -1,4 +1,3 @@
-﻿
-Public Class PersonPhone
+﻿Public Class PersonPhone
 
 End Class

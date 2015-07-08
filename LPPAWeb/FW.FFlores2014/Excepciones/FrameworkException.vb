@@ -1,9 +1,9 @@
 ﻿Namespace Excepciones
     ''' <summary>
-    ''' 
+    '''
     ''' Manejo de Excepciones
     ''' FrameworkException
-    ''' 
+    '''
     ''' </summary>
     ''' <remarks></remarks>
     Public Class FrameworkException

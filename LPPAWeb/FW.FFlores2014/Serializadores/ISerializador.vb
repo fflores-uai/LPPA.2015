@@ -1,6 +1,5 @@
 ﻿Namespace Serializadores
 
-
     Public Interface ISerializador
 
         Function Serializar(unObjeto As List(Of Object)) As String

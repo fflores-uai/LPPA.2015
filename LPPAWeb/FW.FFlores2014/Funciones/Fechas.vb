@@ -2,10 +2,10 @@
     ''' <summary>
     ''' Hoy:
     ''' Devuelve Fecha Actual en variable Tipo String
-    ''' 
+    '''
     ''' Ahora:
     ''' Devuelve Fecha y Hora Actual en variable Tipo String
-    ''' 
+    '''
     ''' </summary>
     ''' <remarks></remarks>
     Public Class Fechas

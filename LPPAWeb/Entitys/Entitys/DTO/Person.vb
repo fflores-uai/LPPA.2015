@@ -4,5 +4,4 @@
     Property LastName As String
     Property PersonPhone As PersonPhone
 
-    
 End Class
