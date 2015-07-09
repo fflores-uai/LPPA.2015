@@ -55,7 +55,7 @@
             <!--NAME END-->
 
             <!--SKILLS-->
-            <article id="SkillsFieldSet" class="active table-bordered hidden" style="padding: 10px">
+            <article id="SkillsFieldSet" class="active table-bordered " style="padding: 10px">
                 <fieldset>
                     <legend>Skills</legend>
                     <div>
@@ -70,7 +70,7 @@
             <!--SKILLS END-->
 
             <!--EMPLOYEMENT-->
-            <article id="EmploymentFieldset" class="active table-bordered hidden" style="padding: 10px">
+            <article id="EmploymentFieldset" class="active table-bordered " style="padding: 10px">
                 <fieldset>
                     <legend>Employement</legend>
                     <div>
@@ -142,7 +142,7 @@
             <!--EMPLOYEMENT END-->
 
             <!--EDUCATION-->
-            <article id="EducationFieldset" class="active table-bordered hidden" style="padding: 10px">
+            <article id="EducationFieldset" class="active table-bordered " style="padding: 10px">
                 <fieldset>
                     <legend>Education</legend>
                     <div>
@@ -221,7 +221,7 @@
             <!--EDUCACTION-->
 
             <!--ADDRESS-->
-            <article id="AddressFieldset" class="active table-bordered hidden" style="padding: 10px">
+            <article id="AddressFieldset" class="active table-bordered " style="padding: 10px">
                 <fieldset>
                     <legend>Address</legend>
                     <div>
@@ -298,6 +298,11 @@
                             <asp:Button ID="btnNext" type="button" Text="NEXT" runat="server" />
                         </p>
                     </div>
+                <div>
+                    <p style="padding-top: 10px;">
+                            <asp:Button ID="btnAddMe" type="button" Text="ADD CANDIDATE" runat="server" />
+                        </p>
+                </div>
 
                 </article>
             <!--ADDRESS END-->

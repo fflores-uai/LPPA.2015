@@ -63,16 +63,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Entitys\Entitys\Core.vbproj">
-      <Project>{1917e7c0-f8c8-45e1-89ef-d07dd707397f}</Project>
-      <Name>Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Commons\Commons.vbproj">
-      <Project>{30417cc7-83fd-41dc-be3b-bb96bdace196}</Project>
-      <Name>Commons</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
     <Import Include="System.Collections" />
@@ -157,6 +147,8 @@
     <Content Include="Forms\JobCandidate\Candidate.aspx" />
     <Content Include="Forms\JobCandidate\Template.aspx" />
     <Content Include="Forms\LogIn\LogIn.aspx" />
+    <Content Include="Forms\RRHH\JobCandidateDetail.aspx" />
+    <Content Include="Forms\RRHH\NewJobCandidate.aspx" />
     <Content Include="Icon.png" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -176,6 +168,8 @@
     <Content Include="Scripts\npm.js" />
     <Content Include="Scripts\Views\Index\Index.js" />
     <Content Include="Scripts\Views\Index\SliderJS.js" />
+    <Content Include="Scripts\Views\JobCandidate\Candidate.js" />
+    <Content Include="Scripts\Views\RRHH\NewJobCandidate.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -207,12 +201,26 @@
       <DependentUpon>LogIn.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Forms\RRHH\JobCandidateDetail.aspx.designer.vb">
+      <DependentUpon>JobCandidateDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RRHH\JobCandidateDetail.aspx.vb">
+      <DependentUpon>JobCandidateDetail.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Forms\Shared\MasterPage.Master.designer.vb">
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Forms\Shared\MasterPage.Master.vb">
       <DependentUpon>MasterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\RRHH\NewJobCandidate.aspx.designer.vb">
+      <DependentUpon>NewJobCandidate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RRHH\NewJobCandidate.aspx.vb">
+      <DependentUpon>NewJobCandidate.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -261,7 +269,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Scripts\Views\JobCandidate\" />
+    <Folder Include="Scripts\Views\LogIn\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BLL\BLL.vbproj">
+      <Project>{5d8e6c86-838f-4b79-9dcc-f63dcd3a56e7}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Entitys\Entitys\Entitys.vbproj">
+      <Project>{bf96f8d4-d944-4f78-8725-7b5e6be842a0}</Project>
+      <Name>Entitys</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

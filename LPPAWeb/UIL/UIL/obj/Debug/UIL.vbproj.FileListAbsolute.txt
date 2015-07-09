@@ -97,3 +97,29 @@ D:\ProyectosGit\LPPAWeb\UIL\UIL\obj\Debug\UIL.vbproj.GenerateResource.Cache
 D:\ProyectosGit\LPPAWeb\UIL\UIL\obj\Debug\UIL.dll
 D:\ProyectosGit\LPPAWeb\UIL\UIL\obj\Debug\UIL.xml
 D:\ProyectosGit\LPPAWeb\UIL\UIL\obj\Debug\UIL.pdb
+C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.vbprojResolveAssemblyReference.cache
+C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.Resources.resources
+C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.vbproj.GenerateResource.Cache
+C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.dll
+C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.xml
+C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\UIL\UIL\obj\Debug\UIL.pdb
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\obj\Debug\UIL.vbprojResolveAssemblyReference.cache
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\obj\Debug\UIL.Resources.resources
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\obj\Debug\UIL.vbproj.GenerateResource.Cache
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\obj\Debug\UIL.dll
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\obj\Debug\UIL.xml
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\obj\Debug\UIL.pdb
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\bin\UIL.dll
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\bin\UIL.pdb
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\bin\UIL.xml
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\bin\BLL.dll
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\bin\Entitys.dll
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\bin\log4net.dll
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\bin\DAO.dll
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\bin\BLL.pdb
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\bin\BLL.xml
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\bin\Entitys.pdb
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\bin\Entitys.xml
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\bin\log4net.xml
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\bin\DAO.pdb
+C:\Users\DMC\RepositorioGit\LPPAWeb\UIL\UIL\bin\DAO.xml

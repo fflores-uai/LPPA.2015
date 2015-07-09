@@ -17,10 +17,20 @@
             <i class="hole"></i>
             <i class="logo_fic"></i>
 
-            <asp:TextBox ID="txtUser" runat="server"></asp:TextBox>
-            <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
+            <fieldset>
+
+
             
+            <p>
+            <label for="txtUser">USER ID: </label>
+            <asp:TextBox ID="txtUser" runat="server"></asp:TextBox>
+                </p>
+            <p>
+            <label for="txtPassword">PASS: </label>
+            <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
+            </p>
                 
+</fieldset>                
                 
                     <div class="alert alert-danger alert-dismissible" role="alert">
                         <button type="button" class="close" data-dismiss="alert">

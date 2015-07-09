@@ -7,12 +7,11 @@ D:\Varios\DX\LPPA 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.vbproj.Generate
 D:\Varios\DX\LPPA 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.dll
 D:\Varios\DX\LPPA 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.xml
 D:\Varios\DX\LPPA 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.pdb
-D:\Dropbox\LPPA 2015\LPPAWeb\Entitys\Entitys\bin\Entitys.dll.config
-D:\Dropbox\LPPA 2015\LPPAWeb\Entitys\Entitys\bin\Entitys.dll
-D:\Dropbox\LPPA 2015\LPPAWeb\Entitys\Entitys\bin\Entitys.pdb
-D:\Dropbox\LPPA 2015\LPPAWeb\Entitys\Entitys\bin\Entitys.xml
-D:\Dropbox\LPPA 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.Resources.resources
-D:\Dropbox\LPPA 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.vbproj.GenerateResource.Cache
-D:\Dropbox\LPPA 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.dll
-D:\Dropbox\LPPA 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.xml
-D:\Dropbox\LPPA 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.pdb
+C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\Entitys\Entitys\bin\Entitys.dll
+C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\Entitys\Entitys\bin\Entitys.pdb
+C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\Entitys\Entitys\bin\Entitys.xml
+C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.Resources.resources
+C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.vbproj.GenerateResource.Cache
+C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.dll
+C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.xml
+C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.pdb
