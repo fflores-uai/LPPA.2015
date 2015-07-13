@@ -6,7 +6,7 @@
     <section>
         <article>
 
-            <asp:GridView ID="JobCandidateTable" runat="server"></asp:GridView>
+            <asp:GridView CssClass="datable" ID="JobCandidateTable" runat="server"></asp:GridView>
 
         </article>
     </section>

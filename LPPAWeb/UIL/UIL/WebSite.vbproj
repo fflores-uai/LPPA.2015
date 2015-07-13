@@ -90,6 +90,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\LogInStyle.css" />
     <Content Include="Content\Resourses\awc_logo.png" />
     <Content Include="Content\Resourses\dad.jpg" />
     <Content Include="Content\Resourses\android.png" />
@@ -145,7 +146,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Forms\Index\Index.aspx" />
     <Content Include="Forms\JobCandidate\Candidate.aspx" />
-    <Content Include="Forms\JobCandidate\Template.aspx" />
     <Content Include="Forms\LogIn\LogIn.aspx" />
     <Content Include="Forms\RRHH\JobCandidateDetail.aspx" />
     <Content Include="Forms\RRHH\NewJobCandidate.aspx" />
@@ -185,13 +185,6 @@
     </Compile>
     <Compile Include="Forms\JobCandidate\Candidate.aspx.vb">
       <DependentUpon>Candidate.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Forms\JobCandidate\Template.aspx.designer.vb">
-      <DependentUpon>Template.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\JobCandidate\Template.aspx.vb">
-      <DependentUpon>Template.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Forms\LogIn\LogIn.aspx.designer.vb">

@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="Contenido" runat="server">
 
     <!--FORMS INGRESO DATOS-->
-    <div id="containerFieldsets">
+    <div id="containerFieldsets" class="container">
         <section class="form-group col-lg-5 center-block">
 
             <!--NAME-->

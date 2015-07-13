@@ -58,6 +58,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Core\Core\Core.vbproj">
+      <Project>{4941a037-9ccb-4df5-960c-cbfee0332dee}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entitys\Entitys\Entitys.vbproj">
       <Project>{1917e7c0-f8c8-45e1-89ef-d07dd707397f}</Project>
       <Name>Entitys</Name>
@@ -97,7 +101,6 @@
     <Compile Include="EmployeeDepartmentHistory\EDHistory.vb" />
     <Compile Include="EmployeeDepartmentHistory\IEDHistory.vb" />
     <Compile Include="Employee\Employee.vb" />
-    <Compile Include="JobCandidate\DTOJobCandidate.vb" />
     <Compile Include="Employee\IEmployee.vb" />
     <Compile Include="JobCandidate\IJobCandidate.vb" />
     <Compile Include="JobCandidate\JobCandidate.vb" />

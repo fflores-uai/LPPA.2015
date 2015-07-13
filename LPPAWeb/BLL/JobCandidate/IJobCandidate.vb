@@ -9,5 +9,6 @@ Public Interface IJobCandidate
     Function GetOneJobCandidate(ByVal JobCandidateID As Integer) As DataSet
     Sub RemoveJobCandidate(ByVal JobCandidateID As Integer)
     Sub UpdateJobCandidate(ByVal EJobCandidate As Entitys.JobCandidate)
+    Function GetAllJobCandidateLast() As DataSet
 
 End Interface

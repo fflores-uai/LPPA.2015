@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BLL", "..\BLL\BLL.vbproj", "{5D8E6C86-838F-4B79-9DCC-F63DCD3A56E7}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Entitys", "..\Entitys\Entitys\Entitys.vbproj", "{1917E7C0-F8C8-45E1-89EF-D07DD707397F}"
@@ -8,6 +10,10 @@ EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DAO", "DAO\DAO.vbproj", "{DA0507EB-38E3-49BE-9777-580E757B3BE9}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebSite", "UIL\WebSite.vbproj", "{F2FAA85D-639A-485F-BBB1-EF63C7D8F953}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Core", "..\Core\Core\Core.vbproj", "{4941A037-9CCB-4DF5-960C-CBFEE0332DEE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FW.FFlores2014", "..\Framework\FW.FFlores2014.vbproj", "{DEA4D310-79D5-407C-896D-0E103FAA3776}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,14 @@ Global
 		{F2FAA85D-639A-485F-BBB1-EF63C7D8F953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2FAA85D-639A-485F-BBB1-EF63C7D8F953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2FAA85D-639A-485F-BBB1-EF63C7D8F953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4941A037-9CCB-4DF5-960C-CBFEE0332DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4941A037-9CCB-4DF5-960C-CBFEE0332DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4941A037-9CCB-4DF5-960C-CBFEE0332DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4941A037-9CCB-4DF5-960C-CBFEE0332DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA4D310-79D5-407C-896D-0E103FAA3776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA4D310-79D5-407C-896D-0E103FAA3776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA4D310-79D5-407C-896D-0E103FAA3776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA4D310-79D5-407C-896D-0E103FAA3776}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

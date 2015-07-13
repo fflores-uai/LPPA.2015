@@ -15,3 +15,12 @@ C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entit
 C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.dll
 C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.xml
 C:\Users\DMC\Dropbox\LPPA 2015\lppa 2015\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.pdb
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\bin\Entitys.dll.config
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\bin\Entitys.dll
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\bin\Entitys.pdb
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\bin\Entitys.xml
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.Resources.resources
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.vbproj.GenerateResource.Cache
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.dll
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.xml
+D:\ProyectsGit\LPPAWeb\Entitys\Entitys\obj\Debug\Entitys.pdb

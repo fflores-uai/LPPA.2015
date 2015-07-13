@@ -10,8 +10,7 @@ Public Class Test
 
         Dim GestorJC = New BLL.JobCandidate
 
-
-        JobCandidateTable.DataSource = GestorJC.GetAllJobCandidate()
+        JobCandidateTable.DataSource = GestorJC.GetAllJobCandidateLast()
         JobCandidateTable.DataBind()
 
     End Sub

@@ -1,0 +1,41 @@
+﻿body {
+    clear:both;
+    
+}
+
+fieldset {
+    font-family: "Verdana", Times, serif;
+    font-weight:bold;
+}
+
+h2{
+    margin-top:0px;
+    text-align:center;
+    text-decoration-color:red;
+    padding-bottom:20px;
+}
+
+#logInBlock {
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-140px 0 0 -190px;
+}
+
+#border {
+    padding: 40px;
+    border-radius: 22px 22px 22px 22px;
+    background-color: rgba(222, 222, 222, 0.73);
+    border:solid #ffe0ca 1px;
+}
+
+#logInButtons{
+    clear:both;
+    font-size:20px;
+    padding-top:30px;
+    text-align:center;
+}
+
+.btn-danger {
+    width:300px;
+}
