@@ -10,6 +10,7 @@
     <link href="/Content/bootstrap.css" rel="stylesheet" />
     <link href="/Content/Slider.css" rel="stylesheet" />
     <link href="../../Content/MyStyle.css" rel="stylesheet" />
+    <link href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css" rel="stylesheet"/>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -44,7 +45,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="UserName">UserName<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li id="SingIn"><a href="#">Sing In</a></li>
+                            <li id="SingIn"><a href="../LogIn/LogIn.aspx">Sing In</a></li>
                             <li id="LogOut"><a href="#">Log Out</a></li>
                         </ul>
                     </li>
@@ -74,6 +75,8 @@
     <script src="../../Scripts/bootstrap.min.js"></script>
     <script src="../../Scripts/Views/Index/SliderJS.js"></script>
     <script src="../../Scripts/Views/Index/Index.js"></script>
+    <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+    
     <!--End Scripts-->
 </body>
 </html>

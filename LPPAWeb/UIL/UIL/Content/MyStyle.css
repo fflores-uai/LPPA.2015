@@ -1,20 +1,16 @@
 ﻿fieldset {
-    
     min-width: 500px;
-    
 }
 
 section {
-    float:none;
-    width:100%;
+    float: none;
+    width: 100%;
 }
 
-
 article {
-    
-    clear:both;
-min-width: 550px;
-margin:10px;
+    clear: both;
+    min-width: 550px;
+    margin: 10px;
 }
 
 fieldset label {
@@ -38,5 +34,30 @@ footer {
     }
 
 #containerFieldsets {
-    float:none;
+    float: none;
+}
+
+#ListJobCandidate {
+    align-content: center;
+}
+
+tbody {
+    font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 12px;
+    border: #5952fe;
+}
+
+th {
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    background-color: #040355;
+    font-weight: bold;
+    color: white;
+}
+
+td {
+    height: 30px;
+    text-align: -webkit-center;
+    background-color: ghostwhite;
 }

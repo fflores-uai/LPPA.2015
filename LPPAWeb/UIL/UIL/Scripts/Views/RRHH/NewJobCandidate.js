@@ -1,6 +1,9 @@
 ﻿$(document).ready(Main);
 
 function Main() {
+
+    $('.datable').DataTable();
+
     $('#Contenido_JobCandidateTable > tbody > tr:nth-child(2) > td:nth-child(1)').click(function () {
 
         //$('#Contenido_txtNumber').val() = 'test';

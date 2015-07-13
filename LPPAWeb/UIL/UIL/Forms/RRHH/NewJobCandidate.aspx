@@ -6,7 +6,7 @@
     
     <div class="container">
 
-    <section>
+    <section  id="ListJobCandidate">
         <article>
 
             <asp:GridView ID="JobCandidateTable" runat="server"></asp:GridView>
