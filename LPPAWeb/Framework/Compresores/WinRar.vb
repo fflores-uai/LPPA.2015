@@ -5,7 +5,5 @@
     ''' <remarks></remarks>
     Public Class WinRar
 
-
-
     End Class
 End Namespace

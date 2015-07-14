@@ -79,5 +79,4 @@ Public Class DAOJobCandidate
         con.Close()
     End Sub
 
-
 End Class

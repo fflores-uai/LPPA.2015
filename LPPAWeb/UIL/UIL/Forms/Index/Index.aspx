@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="Contenido" runat="server">
 
     <!--SLIDER-->
-    <div class="visible-lg visible-md" style="height:800px;">
+    <div class="visible-lg visible-md" style="height: 800px;">
         <div class="slider">
 
             <div class="slide active-slide">
@@ -112,7 +112,7 @@
     <!--END MODAL LOGIN-->
     <footer>
         <p>
-            <a href="Index.html">ADVENTURE WORKS CYLCLE</a>
+            <a href="Index.aspx">ADVENTURE WORKS CYLCLE</a>
         </p>
     </footer>
 </asp:Content>

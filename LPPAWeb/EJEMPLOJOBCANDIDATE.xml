@@ -6,18 +6,13 @@
     <ns:Name.Last>Bassli</ns:Name.Last>
     <ns:Name.Suffix></ns:Name.Suffix>
   </ns:Name>
-  <ns:Skills>
-I am an experienced and versatile machinist who can operate a range of machinery personally as well as supervise the work of other machinists. I specialize in diagnostics and precision inspection, have expertise in reading blueprints, and am able to call on strong interpersonal and communication skills to guide the work of other production machinists whose work I am called upon to inspect. 
-My degree in mechanical engineering affords me a better theoretical understanding and mathematical background than many other candidates in the machinist trade.
-    </ns:Skills>
+  <ns:Skills>I am an experienced and versatile machinist who can operate a range of machinery personally as well as supervise the work of other machinists. I specialize in diagnostics and precision inspection, have expertise in reading blueprints, and am able to call on strong interpersonal and communication skills to guide the work of other production machinists whose work I am called upon to inspect. My degree in mechanical engineering affords me a better theoretical understanding and mathematical background than many other candidates in the machinist trade.</ns:Skills>
   <ns:Employment>
     <ns:Emp.StartDate>2000-06-01Z</ns:Emp.StartDate>
     <ns:Emp.EndDate>2002-09-30Z</ns:Emp.EndDate>
     <ns:Emp.OrgName>Wingtip Toys</ns:Emp.OrgName>
     <ns:Emp.JobTitle>Lead Machinist</ns:Emp.JobTitle>
-    <ns:Emp.Responsibility> Supervised work of staff of four machinists. Coordinated all complex assembly and tooling activities, including production of tricycles and wagons.
-Developed parts fabrication from sample parts, drawings and verbal orders.Worked with ISO9000 implementation.
-        </ns:Emp.Responsibility>
+    <ns:Emp.Responsibility> Supervised work of staff of four machinists. Coordinated all complex assembly and tooling activities, including production of tricycles and wagons.Developed parts fabrication from sample parts, drawings and verbal orders.Worked with ISO9000 implementation.</ns:Emp.Responsibility>
     <ns:Emp.FunctionCategory>Production</ns:Emp.FunctionCategory>
     <ns:Emp.IndustryCategory>Manufacturing</ns:Emp.IndustryCategory>
     <ns:Emp.Location>
@@ -33,9 +28,7 @@ Developed parts fabrication from sample parts, drawings and verbal orders.Worked
     <ns:Emp.EndDate>2000-05-01Z</ns:Emp.EndDate>
     <ns:Emp.OrgName>Blue Yonder Airlines</ns:Emp.OrgName>
     <ns:Emp.JobTitle>Machinist</ns:Emp.JobTitle>
-    <ns:Emp.Responsibility>Repaired and maintained a variety of production and fabrication machine tools.
-Set up and operated machines to close tolerances. Used and wrote CNC machine programs. Trained extensively in computer-aided manufacturing.
-        </ns:Emp.Responsibility>
+    <ns:Emp.Responsibility>Repaired and maintained a variety of production and fabrication machine tools.Set up and operated machines to close tolerances. Used and wrote CNC machine programs. Trained extensively in computer-aided manufacturing.        </ns:Emp.Responsibility>
     <ns:Emp.FunctionCategory>Production</ns:Emp.FunctionCategory>
     <ns:Emp.IndustryCategory>Manufacturing</ns:Emp.IndustryCategory>
     <ns:Emp.Location>

@@ -1,24 +1,23 @@
 ﻿Imports FW.FFlores2014.Excepciones
 
-
 Namespace Funciones
     ''' <summary>
     ''' Numero Aleatorio:
     ''' Recibe un numero minimo y maximo
     ''' Devuelve un numero Aleatorio Tipo Integer
-    ''' 
+    '''
     ''' Promedio:
     ''' Recibe un array de Doubles
     ''' Devuelve el Promedio Tipo Double
-    ''' 
+    '''
     ''' Obtener Porcentaje:
     ''' Recibe el Valor Actual y el Valor Total
     ''' Devuelve el porcentaje Tipo Double
-    ''' 
+    '''
     ''' Obtener Valor Del Porcentaje:
     ''' Recive Valor Total y PorcentajeRequerido
     ''' Devuelve el valor como Resultado en Tipo Double
-    ''' 
+    '''
     ''' </summary>
     ''' <remarks></remarks>
 

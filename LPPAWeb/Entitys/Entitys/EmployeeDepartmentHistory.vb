@@ -1,4 +1,3 @@
-
 Partial Public Class EmployeeDepartmentHistory
     Public Property BusinessEntityID As Integer
     Public Property DepartmentID As Short

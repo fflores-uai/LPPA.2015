@@ -1,7 +1,6 @@
 ﻿Imports System.Data.SqlClient
 Public Class DAOEmployeeDepartmentHistory
 
-
     Public Sub AddEDH(ByVal EDH As Entitys.EmployeeDepartmentHistory)
         Dim con As New SqlConnection("Data Source=DMC-NOTEBOOK\SQLEXPRESS;Initial Catalog=AdventureWorks2008;Integrated Security=True")
         Dim sp As String = "sp_Add_EDHistory"

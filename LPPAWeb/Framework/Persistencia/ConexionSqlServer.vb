@@ -57,7 +57,6 @@ Public Class ConexionSqlServer
 
     End Function
 
-
     Public Function EjecutarEscalar(consulta As String, parametros As Dictionary(Of String, Object)) As Object Implements IConexion.EjecutarEscalar
 
         Dim unComando As New SqlCommand()

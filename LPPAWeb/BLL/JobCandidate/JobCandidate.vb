@@ -1,7 +1,6 @@
 ﻿Public Class JobCandidate
     Implements IJobCandidate
 
-
     Public Sub AddJobCandidate(EJobCandidate As Entitys.JobCandidate) Implements IJobCandidate.AddJobCandidate
         'Dim GestorJobCandidate As New DAO.DAOJobCandidate
         Dim GestorJobCandidate = New Core.DAOJobCandidate

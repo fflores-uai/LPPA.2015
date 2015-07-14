@@ -10,7 +10,7 @@
     <link href="/Content/bootstrap.css" rel="stylesheet" />
     <link href="/Content/Slider.css" rel="stylesheet" />
     <link href="../../Content/MyStyle.css" rel="stylesheet" />
-    <link href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css" rel="stylesheet"/>
+    <link href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -37,11 +37,11 @@
                 <ul class="nav navbar-nav navbar-right">
                     <!--Agregar en esta seccion los link a las otras paginas-->
                     <li id="HomeLink"><a href="../Index/Index.aspx">Home</a></li>
-                    
+
                     <li id="CandidatesLink"><a href="../JobCandidate/Candidate.aspx">Candidate</a></li>
-                    
+
                     <li id="CandidatesRRHH"><a href="../RRHH/NewJobCandidate.aspx">RRHH</a></li>
-                    
+
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="UserName">UserName<b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -51,10 +51,7 @@
                     </li>
                     <li class="dropdown">
                         <a href="#">Lenguaje</a>
-
                     </li>
-
-                    
                 </ul>
             </div>
         </nav>
@@ -64,8 +61,6 @@
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="Contenido" runat="server">
-
-
             </asp:ContentPlaceHolder>
         </div>
     </form>
@@ -76,7 +71,7 @@
     <script src="../../Scripts/Views/Index/SliderJS.js"></script>
     <script src="../../Scripts/Views/Index/Index.js"></script>
     <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
-    
+
     <!--End Scripts-->
 </body>
 </html>

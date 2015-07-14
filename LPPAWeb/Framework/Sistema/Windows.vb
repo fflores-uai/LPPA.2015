@@ -1,18 +1,17 @@
-﻿
-Namespace Sistema
+﻿Namespace Sistema
     ''' <summary>
     ''' Apagar:
     ''' Apaga la PC
-    ''' 
+    '''
     ''' Reiniciar:
     ''' Reinicia la PC
-    ''' 
+    '''
     ''' Cerrar Sesion:
     ''' Cierra la sesion
-    ''' 
+    '''
     ''' </summary>
     ''' <remarks></remarks>
-    ''' 
+    '''
 
     Public Class Windows
 

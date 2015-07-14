@@ -1,5 +1,3 @@
-
-
 Partial Public Class Department
     Public Property DepartmentID As Short
     Public Property Name As String

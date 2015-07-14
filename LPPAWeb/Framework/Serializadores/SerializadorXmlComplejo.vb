@@ -1,5 +1,4 @@
-﻿
-Imports System.Xml.Serialization
+﻿Imports System.Xml.Serialization
 
 Public Class SerializadorXmlComplejo
 
@@ -40,7 +39,5 @@ Public Class SerializadorXmlComplejo
         Return System.Text.Encoding.ASCII.GetString(bytes)
 
     End Function
-
-
 
 End Class

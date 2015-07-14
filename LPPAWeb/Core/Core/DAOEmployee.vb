@@ -23,7 +23,6 @@ Public Class DAOEmployee
         comm.ExecuteNonQuery()
         con.Close()
 
-
         'Dim MyType As Type = Type.GetType("JobCandidate")
         'Dim Mymemberinfoarray As MemberInfo() = MyType.GetMembers()
         'Dim Mymemberinfo As MemberInfo
@@ -98,7 +97,6 @@ Public Class DAOEmployee
         comm.Parameters.AddWithValue("@CurrentFlag", EEmployee.CurrentFlag)
         comm.ExecuteNonQuery()
         con.Close()
-
 
     End Sub
 

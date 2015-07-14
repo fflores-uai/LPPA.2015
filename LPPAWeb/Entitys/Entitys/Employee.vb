@@ -1,4 +1,3 @@
-
 Partial Public Class Employee
     Public Property BusinessEntityID As Integer
     Public Property NationalIDNumber As String

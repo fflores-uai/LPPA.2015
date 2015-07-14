@@ -5,5 +5,5 @@
         Property Apellido As String
 
     End Interface
- 
+
 End Namespace

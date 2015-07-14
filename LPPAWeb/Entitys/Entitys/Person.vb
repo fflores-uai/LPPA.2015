@@ -1,5 +1,5 @@
 ﻿Public Class Person
-   
+
     Property PersonPhone As Long
     Public Property BusinessEntityID As Integer
     Public Property PersonType As String
@@ -17,6 +17,4 @@
 
     Public Overridable Property Employee As Employee
 
-
-    
 End Class

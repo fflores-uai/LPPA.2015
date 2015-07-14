@@ -18,7 +18,4 @@ Public Class EventViewer
         EventLog.WriteEntry(origen, mensaje, EventLogEntryType.Warning)
     End Sub
 
-    
-
-
 End Class

@@ -3,26 +3,26 @@
     ''' Unir Lista:
     ''' Recibe una lista de Tipo String
     ''' Devuelve una variable String con la lista unida, separada por ";"
-    ''' 
+    '''
     ''' Separar Lista:
     ''' Recibe un texto, ejemplo “bart|lisa|homero”
     ''' Recibe un carácter separador = “|”
     ''' El resultado es una lista, que dentro tenga {bart, lisa, homero}
     ''' El carácter separador desaparece.
     ''' Devuelve Tipo Lista(String)
-    ''' 
+    '''
     ''' Decorar Lista:
     ''' Recibe una lista de tipo String
     ''' Le agrega a la lista "-->" al comienzo de cada item
     ''' Devuelve Tipo Lista(String)
-    ''' 
+    '''
     ''' Reemplazar:
     ''' Reemplazar(cadenaOriginal, cadenaBuscar, cadenaReemplazar)
     ''' Recibe un texto original ej: “el teclado es negro”
     ''' Recibe una cadena a buscar: ejemplo “e”
     ''' Recibe el valor que debe reemplazar en el texto buscado, ejemplo: “@”
     ''' El resultado es: “@l t@clado @s n@gro”
-    ''' 
+    '''
     ''' </summary>
     ''' <remarks></remarks>
     Public Class Cadenas

@@ -97,5 +97,4 @@ Public Class DAOPerson
         con.Close()
     End Sub
 
-
 End Class
