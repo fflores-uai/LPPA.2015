@@ -3795,7 +3795,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .input-group-addon,
 .input-group-btn {
-  width: 1%;
+  width: 4%;
   white-space: nowrap;
   vertical-align: middle;
 }
@@ -3854,6 +3854,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   font-size: 0;
   white-space: nowrap;
+    top: 0px;
+    left: 0px;
 }
 .input-group-btn > .btn {
   position: relative;

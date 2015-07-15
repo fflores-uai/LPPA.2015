@@ -35,7 +35,16 @@
     End Sub
 
     Public Function GetAllJobCandidateLast() As DataSet Implements IJobCandidate.GetAllJobCandidateLast
+
         Dim GestorJobCandidate = New Core.DAOJobCandidate
         Return GestorJobCandidate.GetAllJobCandidateLast()
+
+    End Function
+
+    Public Function GetJobCandidateResume(jobCandidateId As Integer) As String Implements IJobCandidate.GetJobCandidateResume
+
+        Dim ManagerJobCandidate = New Core.DAOJobCandidate
+        Return ManagerJobCandidate.GetJobCandidateDetail(jobCandidateId)
+
     End Function
 End Class

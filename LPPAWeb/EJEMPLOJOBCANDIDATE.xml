@@ -44,8 +44,7 @@
     <ns:Emp.EndDate>1996-07-22Z</ns:Emp.EndDate>
     <ns:Emp.OrgName>City Power and Light</ns:Emp.OrgName>
     <ns:Emp.JobTitle>Assistant Machinist</ns:Emp.JobTitle>
-    <ns:Emp.Responsibility>Performed centerless grinding. Received training in manual mill and lathe machines, as well as micrometers and calipers.
-Owned complete toolset.Worked extensive overtime on request. </ns:Emp.Responsibility>
+    <ns:Emp.Responsibility>Performed centerless grinding. Received training in manual mill and lathe machines, as well as micrometers and calipers.Owned complete toolset.Worked extensive overtime on request. </ns:Emp.Responsibility>
     <ns:Emp.FunctionCategory>Production</ns:Emp.FunctionCategory>
     <ns:Emp.IndustryCategory>Manufacturing</ns:Emp.IndustryCategory>
     <ns:Emp.Location>
@@ -101,5 +100,5 @@ Owned complete toolset.Worked extensive overtime on request. </ns:Emp.Responsibi
     </ns:Addr.Telephone>
   </ns:Address>
   <ns:EMail>Shai@Example.com</ns:EMail>
-  <ns:WebSite></ns:WebSite>
+  <ns:WebSite>paginaweb.com</ns:WebSite>
 </ns:Resume>

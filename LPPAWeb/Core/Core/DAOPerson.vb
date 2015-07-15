@@ -1,12 +1,17 @@
-﻿Imports System.Data.SqlClient
+﻿Option Strict On
+Option Explicit On
+Imports System.Data.SqlClient
+Imports System.Data
 
 Public Class DAOPerson
 
+    Dim oConexion As New SqlConnection(ConfigurationManager.ConnectionStrings.Item("ConexionAW").ToString())
+
     Public Sub AddPerson(ByVal EPerson As Entitys.Person)
-        Dim con As New SqlConnection("Data Source=DMC-NOTEBOOK\SQLEXPRESS;Initial Catalog=AdventureWorks2008;Integrated Security=True")
+
         Dim sp As String = "sp_add_JobCandidate"
-        con.Open()
-        Dim comm As New SqlCommand(sp, con)
+        oConexion.Open()
+        Dim comm As New SqlCommand(sp, oConexion)
         comm.CommandType = CommandType.StoredProcedure
         comm.Parameters.AddWithValue("@BussinessEntityID", EPerson.BusinessEntityID)
         comm.Parameters.AddWithValue("@PersonType", EPerson.PersonType)
@@ -20,7 +25,7 @@ Public Class DAOPerson
         comm.Parameters.AddWithValue("@AdditionalContactInfo", EPerson.AdditionalContactInfo)
         comm.Parameters.AddWithValue("@Demographics", EPerson.Demographics)
         comm.ExecuteNonQuery()
-        con.Close()
+        oConexion.Close()
 
         'Dim MyType As Type = Type.GetType("JobCandidate")
         'Dim Mymemberinfoarray As MemberInfo() = MyType.GetMembers()
@@ -35,51 +40,53 @@ Public Class DAOPerson
         'Next Mymemberinfo
 
     End Sub
-    Public Function GetAllPerson()
+
+    Public Function GetAllPerson() As DataSet
         Dim ds As New DataSet
-        Dim con As New SqlConnection("Data Source=DMC-NOTEBOOK\SQLEXPRESS;Initial Catalog=AdventureWorks2008;Integrated Security=True")
+
         Dim sp As String = "sp_GetAll_Person"
-        con.Open()
-        Dim comm As New SqlCommand(sp, con)
+        oConexion.Open()
+        Dim comm As New SqlCommand(sp, oConexion)
         comm.CommandType = CommandType.StoredProcedure
         comm.ExecuteNonQuery()
         Dim sa As New SqlDataAdapter(comm)
         sa.Fill(ds)
-        con.Close()
+        oConexion.Close()
 
         Return ds
     End Function
 
-    Public Function GetOnePerson(ByVal PersonId As Integer)
+    Public Function GetOnePerson(ByVal PersonId As Integer) As DataSet
         Dim ds As New DataSet
-        Dim con As New SqlConnection("Data Source=DMC-NOTEBOOK\SQLEXPRESS;Initial Catalog=AdventureWorks2008;Integrated Security=True")
+
         Dim sp As String = "sp_GetOne_Person"
-        con.Open()
-        Dim comm As New SqlCommand(sp, con)
+        oConexion.Open()
+        Dim comm As New SqlCommand(sp, oConexion)
         comm.CommandType = CommandType.StoredProcedure
         comm.Parameters.AddWithValue("@BussinessEntityID", PersonId)
         comm.ExecuteNonQuery()
         Dim sa As New SqlDataAdapter(comm)
         sa.Fill(ds)
-        con.Close()
+        oConexion.Close()
         Return ds
     End Function
 
     Public Sub RemovePerson(ByVal PersonID As Integer)
-        Dim con As New SqlConnection("Data Source=DMC-NOTEBOOK\SQLEXPRESS;Initial Catalog=AdventureWorks2008;Integrated Security=True")
+
         Dim sp As String = "sp_remove_Person"
-        con.Open()
-        Dim comm As New SqlCommand(sp, con)
+        oConexion.Open()
+        Dim comm As New SqlCommand(sp, oConexion)
         comm.CommandType = CommandType.StoredProcedure
         comm.Parameters.AddWithValue("@BussinessEntityID", PersonID)
         comm.ExecuteNonQuery()
-        con.Close()
+        oConexion.Close()
     End Sub
+
     Public Sub UpdatePerson(ByVal EPerson As Entitys.Person)
-        Dim con As New SqlConnection("Data Source=DMC-NOTEBOOK\SQLEXPRESS;Initial Catalog=AdventureWorks2008;Integrated Security=True")
+
         Dim sp As String = "sp_Update_JobCandidate"
-        con.Open()
-        Dim comm As New SqlCommand(sp, con)
+        oConexion.Open()
+        Dim comm As New SqlCommand(sp, oConexion)
         comm.CommandType = CommandType.StoredProcedure
         comm.Parameters.AddWithValue("@BussinessEntityID", EPerson.BusinessEntityID)
         comm.Parameters.AddWithValue("@PersonType", EPerson.PersonType)
@@ -94,7 +101,7 @@ Public Class DAOPerson
         comm.Parameters.AddWithValue("@Demographics", EPerson.Demographics)
 
         comm.ExecuteNonQuery()
-        con.Close()
+        oConexion.Close()
     End Sub
 
 End Class

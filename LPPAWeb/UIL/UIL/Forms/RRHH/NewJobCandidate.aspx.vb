@@ -18,6 +18,7 @@ Public Class Test
     Protected Sub btnViewJobCandidate_Click(sender As Object, e As EventArgs) Handles btnViewJobCandidate.Click
         JobCandidateDetail.idCandidate = Convert.ToInt16(txtNumber.Text)
 
+
         Response.Redirect("..\RRHH\JobCandidateDetail.aspx")
     End Sub
 End Class

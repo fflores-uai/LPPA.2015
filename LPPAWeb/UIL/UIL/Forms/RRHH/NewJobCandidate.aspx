@@ -9,7 +9,7 @@
         <section id="ListJobCandidate">
             <article>
 
-                <asp:GridView ID="JobCandidateTable" CssClass="dataTable" runat="server"></asp:GridView>
+                <asp:GridView ID="JobCandidateTable" CssClass="table" runat="server"></asp:GridView>
             </article>
 
             <article>
@@ -20,11 +20,9 @@
                 </p>
 
                 <p style="padding-top: 20px;">
-                    <asp:Button ID="btnViewJobCandidate" type="button" Text="View JobCandidate" runat="server" />
+                    <asp:Button ID="btnViewJobCandidate" CssClass="btn-primary" type="button" Text="View JobCandidate" runat="server" />
                 </p>
-                <p>
-                    <label id="textoTest"></label>
-                </p>
+               
             </article>
         </section>
     </div>

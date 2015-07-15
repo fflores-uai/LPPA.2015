@@ -1,12 +1,17 @@
-﻿Imports System.Data.SqlClient
+﻿Option Strict On
+Option Explicit On
+Imports System.Data.SqlClient
+Imports System.Data
 
 Public Class DAOEmployee
 
+    Dim oConexion As New SqlConnection(ConfigurationManager.ConnectionStrings.Item("ConexionAW").ToString())
+
     Public Sub AddEmployee(ByVal EEmployee As Entitys.Employee)
-        Dim con As New SqlConnection("Data Source=DMC-NOTEBOOK\SQLEXPRESS;Initial Catalog=AdventureWorks2008;Integrated Security=True")
+
         Dim sp As String = "sp_add_Employee"
-        con.Open()
-        Dim comm As New SqlCommand(sp, con)
+        oConexion.Open()
+        Dim comm As New SqlCommand(sp, oConexion)
         comm.CommandType = CommandType.StoredProcedure
         comm.Parameters.AddWithValue("@BussinessEntityID", EEmployee.BusinessEntityID)
         comm.Parameters.AddWithValue("@NationalIDNumber", EEmployee.NationalIDNumber)
@@ -21,7 +26,7 @@ Public Class DAOEmployee
         comm.Parameters.AddWithValue("@SickLeaveHours", EEmployee.SickLeaveHours)
         comm.Parameters.AddWithValue("@CurrentFlag", EEmployee.CurrentFlag)
         comm.ExecuteNonQuery()
-        con.Close()
+        oConexion.Close()
 
         'Dim MyType As Type = Type.GetType("JobCandidate")
         'Dim Mymemberinfoarray As MemberInfo() = MyType.GetMembers()
@@ -36,52 +41,52 @@ Public Class DAOEmployee
         'Next Mymemberinfo
 
     End Sub
-    Public Function GetAllEmployee()
+    Public Function GetAllEmployee() As DataSet
         Dim ds As New DataSet
-        Dim con As New SqlConnection("Data Source=DMC-NOTEBOOK\SQLEXPRESS;Initial Catalog=AdventureWorks2008;Integrated Security=True")
+
         Dim sp As String = "sp_GetAll_Employee"
-        con.Open()
-        Dim comm As New SqlCommand(sp, con)
+        oConexion.Open()
+        Dim comm As New SqlCommand(sp, oConexion)
         comm.CommandType = CommandType.StoredProcedure
         comm.ExecuteNonQuery()
         Dim sa As New SqlDataAdapter(comm)
         sa.Fill(ds)
-        con.Close()
+        oConexion.Close()
 
         Return ds
     End Function
 
-    Public Function GetOneEmployee(ByVal EmployeeId As Integer)
+    Public Function GetOneEmployee(ByVal EmployeeId As Integer) As DataSet
         Dim ds As New DataSet
-        Dim con As New SqlConnection("Data Source=DMC-NOTEBOOK\SQLEXPRESS;Initial Catalog=AdventureWorks2008;Integrated Security=True")
+
         Dim sp As String = "sp_GetOne_Employee"
-        con.Open()
-        Dim comm As New SqlCommand(sp, con)
+        oConexion.Open()
+        Dim comm As New SqlCommand(sp, oConexion)
         comm.CommandType = CommandType.StoredProcedure
         comm.Parameters.AddWithValue("@BussinessEntityID", EmployeeId)
         comm.ExecuteNonQuery()
         Dim sa As New SqlDataAdapter(comm)
         sa.Fill(ds)
-        con.Close()
+        oConexion.Close()
         Return ds
     End Function
 
     Public Sub RemoveEmployee(ByVal EmployeeId As Integer)
-        Dim con As New SqlConnection("Data Source=DMC-NOTEBOOK\SQLEXPRESS;Initial Catalog=AdventureWorks2008;Integrated Security=True")
+
         Dim sp As String = "sp_remove_Employee"
-        con.Open()
-        Dim comm As New SqlCommand(sp, con)
+        oConexion.Open()
+        Dim comm As New SqlCommand(sp, oConexion)
         comm.CommandType = CommandType.StoredProcedure
         comm.Parameters.AddWithValue("@BussinessEntityID", EmployeeId)
         comm.ExecuteNonQuery()
-        con.Close()
+        oConexion.Close()
 
     End Sub
     Public Sub UpdateEmployee(ByVal EEmployee As Entitys.Employee)
-        Dim con As New SqlConnection("Data Source=DMC-NOTEBOOK\SQLEXPRESS;Initial Catalog=AdventureWorks2008;Integrated Security=True")
+
         Dim sp As String = "sp_Update_Employee"
-        con.Open()
-        Dim comm As New SqlCommand(sp, con)
+        oConexion.Open()
+        Dim comm As New SqlCommand(sp, oConexion)
         comm.CommandType = CommandType.StoredProcedure
         comm.Parameters.AddWithValue("@BussinessEntityID", EEmployee.BusinessEntityID)
         comm.Parameters.AddWithValue("@NationalIDNumber", EEmployee.NationalIDNumber)
@@ -96,7 +101,7 @@ Public Class DAOEmployee
         comm.Parameters.AddWithValue("@SickLeaveHours", EEmployee.SickLeaveHours)
         comm.Parameters.AddWithValue("@CurrentFlag", EEmployee.CurrentFlag)
         comm.ExecuteNonQuery()
-        con.Close()
+        oConexion.Close()
 
     End Sub
 
