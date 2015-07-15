@@ -21,4 +21,13 @@ Partial Public Class JobCandidateDetail
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents JobCandidateTable As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''Control xmlResume.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents xmlResume As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 End Class

@@ -8,6 +8,9 @@
         <article>
 
             <asp:GridView CssClass="datable" ID="JobCandidateTable" runat="server"></asp:GridView>
+
+            <label id="xmlResume" runat="server"></label>
+
         </article>
     </section>
 </asp:Content>

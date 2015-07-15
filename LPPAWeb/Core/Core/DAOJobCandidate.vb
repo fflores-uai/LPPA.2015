@@ -3,6 +3,8 @@ Option Strict On
 Imports System.Data
 Imports System.Data.SqlClient
 Imports System.Reflection
+Imports System.IO
+Imports System.Xml.XPath
 
 Public Class DAOJobCandidate
 
@@ -43,11 +45,51 @@ Public Class DAOJobCandidate
 
     Public Function GetJobCandidateDetail(jobcandidateId As Integer) As String
 
+        Dim ds = New DataSet
         Dim consulta = String.Format("select [Resume] from HumanResources.JobCandidate where JobCandidateID = {0}", jobcandidateId)
 
-        Dim oCommand = New SqlCommand()
+        oConexion.Open()
 
-        Return Nothing
+        Dim oCommand = New SqlCommand(consulta, oConexion)
+
+        oCommand.CommandType = CommandType.Text
+        oCommand.ExecuteScalar()
+
+        Dim sa = New SqlDataAdapter(oCommand)
+        sa.Fill(ds)
+
+        Dim aString = GenerateXML(ds)
+
+        Dim nav As XPathNavigator
+        Dim docNav As XPathDocument
+        'Dim NodeIter As XPathNodeIterator
+        Dim strExpression As String
+
+        Dim memoryStream As New MemoryStream()
+        Dim streamWriter As New StreamWriter(memoryStream)
+
+        streamWriter.Write(aString)
+        memoryStream.Position = 0
+
+        docNav = New XPathDocument(memoryStream)
+        nav = docNav.CreateNavigator
+
+        strExpression = "/NewDataSet/Table/Resume"
+
+
+
+
+        Return strExpression
+
+    End Function
+
+    Private Function GenerateXML(ByVal ds As DataSet) As String
+
+        Dim obj As New StringWriter()
+        Dim xmlstring As String
+        ds.WriteXml(obj)
+        xmlstring = obj.ToString()
+        Return xmlstring
 
     End Function
 
