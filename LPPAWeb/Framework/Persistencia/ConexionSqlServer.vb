@@ -16,6 +16,14 @@ Public Class ConexionSqlServer
         _sqlConnection.Open()
 
     End Sub
+    Public Sub Conexioniniciar(con As String)
+
+        _sqlConnection = New SqlConnection(con)
+
+        _sqlConnection.Open()
+
+    End Sub
+
 
     Public Sub ConexionIniciar(server As String, base As String, usuario As String, pass As String)
 
@@ -56,6 +64,8 @@ Public Class ConexionSqlServer
         Return "Server=" + servidor + ";Database=" + catalogo + ";Trusted_Connection=True;"
 
     End Function
+
+
 
     Public Function EjecutarEscalar(consulta As String, parametros As Dictionary(Of String, Object)) As Object Implements IConexion.EjecutarEscalar
 

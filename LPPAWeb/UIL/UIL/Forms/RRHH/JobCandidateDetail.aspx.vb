@@ -10,6 +10,7 @@ Public Class JobCandidateDetail
 
         Dim GestorJC = New BLL.JobCandidate
 
+       
         xmlResume.InnerText = GestorJC.GetJobCandidateResume(idCandidate)
 
         JobCandidateTable.DataSource = GestorJC.GetOneJobCandidate(idCandidate)

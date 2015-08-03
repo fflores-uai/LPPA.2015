@@ -1,5 +1,7 @@
 ﻿Option Explicit On
 Option Strict On
+
+Imports FW.FFlores2014
 Imports System.Data
 Imports System.Data.SqlClient
 Imports System.Reflection
@@ -20,7 +22,6 @@ Public Class DAOJobCandidate
         comm.Parameters.AddWithValue("@Resume", EJobCandidate.Resume)
         comm.ExecuteNonQuery()
         oConexion.Close()
-
 
     End Sub
 
@@ -43,43 +44,35 @@ Public Class DAOJobCandidate
 
     End Function
 
-    Public Function GetJobCandidateDetail(jobcandidateId As Integer) As String
+    Public Function GetJobCandidateDetail(jobcandidateId As Integer) As Object
 
-        Dim ds = New DataSet
+        Dim unaCOnexion As New ConexionSqlServer
+
         Dim consulta = String.Format("select [Resume] from HumanResources.JobCandidate where JobCandidateID = {0}", jobcandidateId)
 
-        oConexion.Open()
+        unaCOnexion.ConexionIniciar(ConfigurationManager.ConnectionStrings.Item("ConexionAW").ToString())
 
-        Dim oCommand = New SqlCommand(consulta, oConexion)
+        Dim result = unaCOnexion.EjecutarEscalar(consulta, New Dictionary(Of String, Object))
 
-        oCommand.CommandType = CommandType.Text
-        oCommand.ExecuteScalar()
+        unaCOnexion.ConexionFinalizar()
 
-        Dim sa = New SqlDataAdapter(oCommand)
-        sa.Fill(ds)
+        'Dim nav As XPathNavigator
+        'Dim docNav As XPathDocument
+        ''Dim NodeIter As XPathNodeIterator
+        'Dim strExpression As String
 
-        Dim aString = GenerateXML(ds)
+        'Dim memoryStream As New MemoryStream()
+        'Dim streamWriter As New StreamWriter(memoryStream)
 
-        Dim nav As XPathNavigator
-        Dim docNav As XPathDocument
-        'Dim NodeIter As XPathNodeIterator
-        Dim strExpression As String
+        'streamWriter.Write(aString)
+        'memoryStream.Position = 0
 
-        Dim memoryStream As New MemoryStream()
-        Dim streamWriter As New StreamWriter(memoryStream)
+        'docNav = New XPathDocument(memoryStream)
+        'nav = docNav.CreateNavigator
 
-        streamWriter.Write(aString)
-        memoryStream.Position = 0
+        'strExpression = "/NewDataSet/Table/Resume"
 
-        docNav = New XPathDocument(memoryStream)
-        nav = docNav.CreateNavigator
-
-        strExpression = "/NewDataSet/Table/Resume"
-
-
-
-
-        Return strExpression
+        Return result
 
     End Function
 
@@ -92,7 +85,6 @@ Public Class DAOJobCandidate
         Return xmlstring
 
     End Function
-
 
     Public Function GetAllJobCandidateLast() As DataSet
 

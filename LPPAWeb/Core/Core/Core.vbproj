@@ -62,6 +62,10 @@
       <Project>{1917e7c0-f8c8-45e1-89ef-d07dd707397f}</Project>
       <Name>Entitys</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Framework\FW.FFlores2014.vbproj">
+      <Project>{dea4d310-79d5-407c-896d-0e103faa3776}</Project>
+      <Name>FW.FFlores2014</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
