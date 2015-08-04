@@ -158,6 +158,12 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Forms\Shared\MasterPage.Master" />
+    <EmbeddedResource Include="App_GlobalResources\language.es-ar.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>language.es-ar.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -170,9 +176,20 @@
     <Content Include="Scripts\Views\Index\SliderJS.js" />
     <Content Include="Scripts\Views\JobCandidate\Candidate.js" />
     <Content Include="Scripts\Views\RRHH\NewJobCandidate.js" />
+    <Content Include="Scripts\Views\Shared\Master.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_GlobalResources\language.es-ar.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>language.es-ar.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\language.en-us.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>language.en-us.resx</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Index\Index.aspx.designer.vb">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
@@ -215,6 +232,9 @@
       <DependentUpon>NewJobCandidate.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Helpers\BasePage.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -236,6 +256,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_GlobalResources\language.en-us.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>language.en-us.designer.vb</LastGenOutput>
+    </Content>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>

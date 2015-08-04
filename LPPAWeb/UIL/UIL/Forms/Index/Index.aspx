@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="HOMES" Language="vb" AutoEventWireup="false" MasterPageFile="~/Forms/Shared/MasterPage.Master" CodeBehind="Index.aspx.vb" Inherits="Website.Index" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script src="../../Scripts/Views/Shared/Master.js"></script>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Contenido" runat="server">
 
