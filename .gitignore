@@ -117,3 +117,4 @@ UpgradeLog*.XML
 /Source/WebSite/Web.Dependencies.config
 /Source/Migration/App.ConnectionStrings.config
 /Source/WebSite/Files
+/LPPAWeb/UIL/*.suo
